@@ -1,19 +1,33 @@
 .Index, .PaginaCV{
+    display: block;
+    box-sizing: border-box;
+    width: 1000px;
+    margin-left: 20%;
     background-color: #bcced4;
     font-family:'Helvetica';
+}
+
+.Nombre, .Curriculum, .Idiomas, .Contacto{
+    width: auto;
+    border: 7px solid #2A1506;
+    padding: 25px;
+    margin: 20px;
 }
 
 *{
     color: #2A1506;
 }
 body { 
-
     width: 1000px;
     word-wrap: break-word;
-    display: inline-block;
+    align-self: center;
 }
 
 .Titulo{
 margin-bottom: -15px;
    
-}   
+} 
+.Email, .Telefono, .Hyperlink {
+    display: inline;
+    margin-right: 10%;
+}
