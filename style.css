@@ -1,0 +1,19 @@
+.Index, .PaginaCV{
+    background-color: #bcced4;
+    font-family:'Helvetica';
+}
+
+*{
+    color: #2A1506;
+}
+body { 
+
+    width: 1000px;
+    word-wrap: break-word;
+    display: inline-block;
+}
+
+.Titulo{
+margin-bottom: -15px;
+   
+}   
